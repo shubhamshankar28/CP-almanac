@@ -1,11 +1,21 @@
-Topic name - put the topic name here
-Sub-topic - put the sub-topic name here
+Topic name -  
+Flows
 
-Definition
-Try explaining things in your own unique way, although you can take help from some authnetic sources. Kindly remove this line before creating a PR
+Sub-topic - 
+Edmonds-Karp Algorithm 
+
+Definition -
+Edmonds-Karp Algorithm is one variation of the Ford-Fulkersron Algorithm. 
+The Edmonds-Karp Algorithm finds the augmenting path using breadth first search. 
+If there exists multiple augmenting paths from source to destination then ford-fulkerson algorithm choses
+the path with the least length. 
+This way of choosing the augmenting path proves to be very beneficial, as it limits the time complexity of the algorithm 
+to O(V*E*E).Hence the time complexity is independent of the value of the max flow. 
+Hence if a graph has large flow value but the number of vertices and edges are small, then this algorithm offers 
+a significant improvement. 
+
 
 Explanation (along with examples)
-Comment your examples properly. Kindly remove this line before creating a PR
+
 
 Application(Only 1)
-*A Medium level question or application along with the approach to solve the same and the pseudocode should be given here. Kindly remove this line before creating a PR
