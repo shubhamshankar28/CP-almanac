@@ -101,3 +101,8 @@ We can modify the Edmonds-Karp Algorithm to return the exact flow and thereby we
 To do this we consider only the edges between the real nodes , if the flow is assigned to an edge is 1 then it is a part of the maximum matching
 otherwise it is not a part of the maximum matching. Note that any edge that is incident to either the virtual source or virtual destination is not
 considered.
+
+#### Sample Problems 
+1. [download speed](https://cses.fi/problemset/task/1694) 
+2. [school dance](https://cses.fi/problemset/task/1696) 
+3. [Red Blue Graph](https://codeforces.com/contest/1288/problem/f)
